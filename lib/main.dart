@@ -1,8 +1,7 @@
+import 'package:calculator/bindings/my_bindings.dart';
 import 'package:calculator/screen/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'bindings/my_bindings.dart';
 
 void main() {
   runApp(const MyApp());

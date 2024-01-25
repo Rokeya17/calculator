@@ -153,8 +153,8 @@ class MainScreen extends StatelessWidget {
           child: GetBuilder<ThemeController>(builder: (controller) {
             return AdvancedSwitch(
               controller: controller.switcherController,
-              activeImage: const AssetImage('assets/day_sky.png'),
-              inactiveImage: const AssetImage('assets/night_sky.jpg'),
+              activeImage: const AssetImage('assets/day.jpg'),
+              inactiveImage: const AssetImage('assets/night.jpg'),
               activeColor: Colors.green,
               inactiveColor: Colors.grey,
               activeChild: Text(

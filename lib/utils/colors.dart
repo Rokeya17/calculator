@@ -8,7 +8,7 @@ class DarkColors {
   static const leftOperatorColor = Color.fromARGB(255, 7, 255, 209);
 }
 
-/// Light Theme Colors
+/// Light Them Colors
 class LightColors {
   static const scaffoldBgColor = Color(0xffFFFFFF);
   static const sheetBgColor = Color(0xffF9F9F9);
